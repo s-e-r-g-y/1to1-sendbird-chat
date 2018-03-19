@@ -1,7 +1,7 @@
 # 1to1 sendbird chat
 
 ## Notes
- - There are test only for one component as an example
+ - There are tests only for one component as an example
 
 ## Available Commands
 
