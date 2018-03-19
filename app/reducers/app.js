@@ -91,6 +91,9 @@ export default handleActions(
     },
 
     'message added': (state, action) => {
+      if (state.createdChannel.url !== action.payload.channel.url) {
+        return state;
+      }
       const message = {
         ...action.payload.message,
         myMessage: false,
