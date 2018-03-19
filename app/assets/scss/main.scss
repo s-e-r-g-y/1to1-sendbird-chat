@@ -1,0 +1,84 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+/* All of the other imports comes after the bootstrap so we can overwrite it ! */
+
+$color: #262828;
+$linkColor: #069;
+
+body {
+  color: $color;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link-text {
+  cursor: pointer;
+  color: $linkColor;
+}
+
+.m-left-20 {
+  margin-left: 20px;
+}
+
+.m-right-20 {
+  margin-right: 20px;
+}
+
+.m-top-10 {
+  margin-top: 10px;
+}
+
+.f-size-18 {
+  font-size: 18px;
+}
+
+.link-text:hover {
+  font-weight: bold;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.user-list-wp {
+  width: 300px;
+}
+
+.chat-room-wp {
+  width: 300px;
+}
+
+.chat-box {
+  border: 1px solid black;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.message {
+  min-height: 20px;
+  clear: both;
+  margin-top: 15px;
+}
+
+.message > div {
+  border-radius: 5px;
+  color: white;
+  padding: 2px 8px;
+}
+
+.message .right {
+  background-color: #5bc0de;
+}
+
+.message .left {
+  background-color: darken(#428bca, 6.5%);
+}

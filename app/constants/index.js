@@ -1,0 +1,8 @@
+
+const APP_ID = '5EAD5805-A998-49C7-8F0C-1EAB7EFDC763';
+const USER_ITEM_ALIAS = `${APP_ID}-userId`;
+
+export {
+  APP_ID,
+  USER_ITEM_ALIAS,
+};
