@@ -43,7 +43,7 @@ class SignupForm extends Component {
             <input
               id="userId-signup"
               className="form-control"
-              name="UserId"
+              name="userId"
               placeholder="User Id"
               onChange={event => (this.handleChange(event))}
             />
